@@ -15,17 +15,18 @@
         "wiki": "https://github.com/AprSoft/yii2-baidu-ueditor/wiki",
         "https://github.com/AprSoft/yii2-baidu-ueditor"
     },
-    "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "master",
-        "fex-team/ueditor": "master",
-    },
+    
     "repositories":[
         {
             "type": "git",
             "url": "https://github.com/AprSoft/yii2-baidu-ueditor.git"
         }
     ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "fex-team/ueditor": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "AprSoft\\ueditor\\": ""
