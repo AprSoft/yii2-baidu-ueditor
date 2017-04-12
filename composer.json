@@ -1,0 +1,21 @@
+{
+    "name": "aprsoft/yii2-baidu-ueditor",
+    "description": "yii2 ueditor extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","ueditor"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "zhangxinyu",
+            "email": "176956856@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aprsoft\\ueditor\\": ""
+        }
+    }
+}
