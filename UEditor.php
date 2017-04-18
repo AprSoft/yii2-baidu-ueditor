@@ -6,7 +6,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\helpers\Json;
 use yii\web\View;
-
+use yii\helpers\ArrayHelper;
 /**
  * @todo Class UEditor Widget
  * @package AprSoft\UEditor
