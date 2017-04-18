@@ -18,7 +18,7 @@ class UEditor extends yii\widgets\InputWidget
 
     public $clientOptions = [];
 
-    public funtion init()
+    public function init()
     {
         $this->_options = [
             'serverUrl' => Url::to(['upload']),
@@ -44,7 +44,7 @@ class UEditor extends yii\widgets\InputWidget
     {
         UEditorAsset::register($this->view);
         $clientOptions = Json::encode($this->clientOptions);
-        $script = "UE.getEditor('" . $this->id . "', " . $clientOptions . ");";
+        $script = "UE.getEditor('" . $this->options['id'] . "', " . $clientOptions . ");";
         $this->view->registerJs($script, View::POS_READY);
     }
 
