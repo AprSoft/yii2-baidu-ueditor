@@ -9,11 +9,11 @@
             "name": "zhangxinyu",
             "email": "176956856@qq.com"
         }
-    ], 
+    ],
     "support": {
         "issues": "https://github.com/AprSoft/yii2-baidu-ueditor/issues",
         "wiki": "https://github.com/AprSoft/yii2-baidu-ueditor/wiki"
-        
+
     },
     "require": {
         "php": ">=5.4.0",
@@ -21,8 +21,8 @@
     },
     "autoload": {
         "psr-4": {
-            "AprSoft\\UEditor\\": "src"
+            "AprSoft\\UEditor\\": ""
         }
     }
-    
+
 }
