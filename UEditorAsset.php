@@ -14,6 +14,7 @@ class UEditorAsset extends AssetBundle {
     public $sourcePath;
 
     public $js = [
+        'ueditor.config.js',
         'ueditor.all.min.js',
     ];
 
@@ -27,7 +28,7 @@ class UEditorAsset extends AssetBundle {
 
     public function init()
     {
-        $this->sourcePath = __DIR__ . '/assets';
+        $this->sourcePath = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'assets';
         parent::init();
     }
 }
